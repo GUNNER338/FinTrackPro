@@ -5,7 +5,8 @@ import { radius } from './radius';
 import { shadows } from './shadows';
 
 export const theme = {
-  colors,
+  colors: colors.light,
+  colorThemes: colors,
   typography,
   spacing,
   spacingVertical,

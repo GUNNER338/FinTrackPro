@@ -3,7 +3,7 @@ import { theme } from '../theme';
 
 export const useTheme = () => {
   const currentTheme = useThemeStore((state) => state.currentTheme);
-  const colors = theme.colors[currentTheme];
+  const colors = theme.colorThemes[currentTheme];
 
   return {
     isDark: currentTheme === 'dark',
